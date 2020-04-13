@@ -1,0 +1,24 @@
+{
+  "name": "test-rust",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gamaranto",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -w ./src/*.ts -e ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@joystream/types": "^0.7.0",
+    "@polkadot/api": "^1.9.1",
+    "@polkadot/types": "^1.9.1",
+    "@types/vfile": "^4.0.0",
+    "ajv": "^6.12.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.11.1",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.8.2",
+    "typescript": "^3.8.3"
+  }
+}
