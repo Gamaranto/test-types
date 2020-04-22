@@ -9,8 +9,8 @@
   },
   "dependencies": {
     "@joystream/types": "^0.7.0",
-    "@polkadot/api": "^0.9.6",
-    "@polkadot/types": "^0.9.1",
+    "@polkadot/api": "^0.96.1",
+    "@polkadot/types": "^0.96.1",
     "@types/vfile": "^4.0.0",
     "ajv": "^6.12.0"
   },
